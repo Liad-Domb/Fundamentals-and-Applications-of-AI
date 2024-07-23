@@ -1,0 +1,20 @@
+Stochastic Pirate Treasure Hunt:
+
+Overview:
+This project is the second assignment for the Fundamentals and Applications of AI course. Building upon the previous homework, this task involves managing a fleet of pirate ships in a stochastic environment where Marine movements and treasure locations are not deterministic. The goal is to collect as many points as possible within a limited number of turns by developing intelligent agents that can handle uncertainty and make optimal decisions.
+
+Features:
+Dynamic Environment: The Marine ships and treasures have probabilistic behaviors, making the environment unpredictable.
+Agent Actions: Includes actions like sail, collect, deposit, wait, reset, and terminate.
+Points System: Points are awarded for collecting and depositing treasures and deducted for encounters with Marine ships and resetting the environment.
+
+Technologies Used:
+Python
+Advanced AI algorithms including Value Iteration
+NetworkX for graph-based problem representation
+
+Project Structure:
+Stochastic Pirate Treasure Hunt.py: Main implementation file for the PirateAgent, OptimalPirateAgent, and InfinitePirateAgent classes.
+check.py: Implements the environment and runs the simulation.
+utils.py: Contains utility functions to support the main implementation.
+inputs.py: Provides the input data for the simulation.
