@@ -1,0 +1,21 @@
+Competitive Pirate Fleet Navigation:
+
+Overview:
+This project is the third assignment for the Fundamentals and Applications of AI course. The objective is to implement two intelligent agents to manage a pirate fleet in a competitive environment. The agents must collect and deposit treasures while competing against an opponent's fleet, employing advanced AI algorithms to maximize their score.
+
+Features:
+Competitive Environment: Two pirate fleets compete to collect unique treasures. Actions are taken in turns, and treasures have different rewards.
+Stochastic Dynamics: The environment includes probabilistic elements, such as the appearance of new treasures and the movement of Marine ships.
+Advanced Actions: Introduces a new "plunder" action to disrupt the opponent's fleet, along with refined "collect" and "deposit" actions.
+
+Technologies Used:
+Python
+Advanced AI algorithms including Upper Confidence Bound for Trees (UCT)
+Custom data structures and priority queues
+
+Project Structure:
+Competitive Pirate Fleet Navigation.py: Main implementation file for the UCT-based agent and a general agent, containing all the required classes and functions.
+main.py: Runs the game to check the agents' performance.
+simulator.py: Contains the game simulator for testing the agents.
+sample_agent.py: Provides a baseline agent that uses random actions.
+utils.py: Includes utility functions and classes to support the main implementation.
