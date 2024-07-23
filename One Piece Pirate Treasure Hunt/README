@@ -1,0 +1,23 @@
+One Piece Pirate Treasure Hunt
+Overview:
+
+This project is a homework assignment for the Fundamentals and Applications of AI course. The goal is to develop an intelligent agent to navigate a pirate ship fleet in a grid-based environment to collect treasures and avoid Marine ships. The agent uses search algorithms and heuristic functions to plan optimal paths and ensure the successful collection and deposit of all treasures at the Pirate Base.
+
+Features:
+
+Environment Representation: A grid-based map with various cell types including Sea, Island, Pirate Base, and Marine Ship.
+Agent Actions: The pirate ships can sail, collect treasures, deposit treasures, and wait. Actions are executed in discrete turns.
+
+Heuristic Functions: Includes several heuristic functions (h, h_1, h_2, h_3, h_4) to estimate the cost of reaching the goal state.
+
+Search Algorithm: Implements the A* search algorithm to find the optimal path for the pirate ships.
+
+
+Technologies Used:
+Python, Custom data structures for problem representation, Search algorithms (A*, BFS, DFS)
+
+Project Structure:
+ex1-One Piece Pirate Treasure Hunt.py: Main implementation file for the OnePieceProblem class and heuristic functions.
+search algorithm- One Piece Pirate Treasure Hunt.py: Contains the implementation of the A* search algorithm and other supporting functions.
+check.py: Wrapper and input handling file to run the problem and check the solution.
+utils.py: Utility functions used across the project.
